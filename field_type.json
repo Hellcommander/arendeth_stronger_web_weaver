@@ -1,0 +1,138 @@
+ [ 
+  {
+    "id": "fd_web2",
+    "type": "field_type",
+    "legacy_enum_id": 5,
+    "intensity_levels": [
+      {
+        "name": "cobwebs",
+		"transparent": true,
+        "sym": "}",
+        "effects": [
+          { "effect_id": "webbed", "intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+      {
+        "name": "webs",
+		"transparent": true,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 2, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+      {
+        "name": "thick webs",
+        "transparent": true,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 3, "min_duration": "2 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+	        {
+        "name": "woven webs",
+        "transparent": true,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 4, "min_duration": "2 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+	  	 {
+        "name": "dense webs",
+        "transparent": false,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 5, "min_duration": "3 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+	  	  	        {
+        "name": "dense woven webs",
+        "transparent": false,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 6, "min_duration": "3 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      }
+    ],
+    "description_affix": "covered_in",
+    "immunity_data": { "flags": [ "WEBWALK" ] },
+    "immune_mtypes": [ "mon_spider_web", "mon_spider_web_s", "mon_mutant_arthropod" ],
+    "decrease_intensity_on_contact": true,
+    "priority": 2,
+    "phase": "solid",
+    "display_items": true,
+    "bash": {
+      "str_min": 4,
+      "str_max": 10,
+      "sound_vol": 2,
+      "sound_fail_vol": 2,
+      "sound": "hsh!",
+      "msg_success": "You brush aside some webs."
+    },
+    "display_field": true
+  },
+   {
+    "id": "fd_web_bridge",
+    "type": "field_type",
+    "legacy_enum_id": 5,
+    "intensity_levels": [
+      {
+        "name": "cobwebs",
+		"translucency": .45,
+        "sym": "}",
+        "effects": [
+          { "effect_id": "webbed", "intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+      {
+        "name": "webs",
+		"translucency": .55,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 2, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+      {
+        "name": "thick webs",
+        "transparent": false,
+		"translucency": .65,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 3, "min_duration": "2 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+	        {
+        "name": "woven webs",
+        "transparent": false,
+		"translucency": .75,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 4, "min_duration": "2 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+	  	 {
+        "name": "dense webs",
+        "transparent": false,
+		"translucency": .85,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 5, "min_duration": "3 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      },
+	  	  	        {
+        "name": "dense woven webs",
+        "transparent": false,
+		"translucency": .95,
+        "effects": [
+          { "effect_id": "webbed", "intensity": 6, "min_duration": "3 m", "immune_in_vehicle": true, "is_environmental": false }
+        ]
+      }
+    ],
+    "description_affix": "covered_in",
+    "immunity_data": { "flags": [ "WEBWALK" ] },
+    "immune_mtypes": [ "mon_spider_web", "mon_spider_web_s", "mon_mutant_arthropod" ],
+    "decrease_intensity_on_contact": false,
+    "priority": 2,
+    "phase": "solid",
+    "display_items": true,
+    "bash": {
+      "str_min": 300,
+      "str_max": 750,
+      "sound_vol": 2,
+      "sound_fail_vol": 2,
+      "sound": "hsh!",
+      "msg_success": "You brush aside some webs."
+    },
+    "display_field": true
+  }
+]
