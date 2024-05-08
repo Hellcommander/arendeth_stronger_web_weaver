@@ -1,0 +1,44 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_web_weaver_bridge",
+    "name": "woven spider silk bridge",
+    "description": "A complexely done bridge woven by a humanoid mutant spider.",
+    "move_cost_mod": 0,
+    "symbol": "#",
+	"looks_like": "fd_web",
+	"connect_groups": "WEBBRIDGE",
+    "connects_to": "WEBBRIDGE",
+    "color": "light_gray",
+    "required_str": 9,
+	"flags": [
+      "TRANSPARENT",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE_HARD",
+	  "FLAMMABLE_ASH",
+	  "FLAT_SURF",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "ALLOW_ON_OPEN_AIR",
+	  "REDUCE_SCENT",
+      "BRIDGE"
+    ],
+    "deconstruct": {
+      "items": [
+        { "item": "rope_30", "count": 20 }
+      ]
+    },
+    "bash": {
+      "str_min": 50,
+      "str_max": 400,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "items": [
+        { "item": "rope_30", "count": [ 10, 19 ] },
+      ]
+    }
+  }
+]

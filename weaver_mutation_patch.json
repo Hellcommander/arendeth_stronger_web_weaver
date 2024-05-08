@@ -1,0 +1,8 @@
+[ 
+  {
+    "type": "mutation",
+    "id": "WEB_ROPE",
+	"copy-from": "WEB_ROPE",
+    "spells_learned": [ [ "Web_bridge", 1 ] ]
+  }
+]

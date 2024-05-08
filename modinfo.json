@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "arendeth_stronger_web_weaver",
+    "name": "Stronger Web Weaver",
+    "authors": [ "Arendeth" ],
+    "maintainers": [ "Arendeth" ],
+    "description": "WIP currently adds bridge (planned to restrict usage to spider threshold) making spell currently plans to add slope spells and stronger field effect while having web weaver(anyone with web weaver mutation)",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

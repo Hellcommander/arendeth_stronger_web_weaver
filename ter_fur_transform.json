@@ -1,0 +1,45 @@
+
+{
+    "type": "ter_furn_transform",
+    "id": "web_weaver_create_web_bridge",
+    "terrain": [
+      {
+        "result": "t_web_weaver_bridge",
+        "valid_terrain": [
+          "t_open_air",
+		  "t_open_air_rooved_outside",
+		  "t_open_air_rooved",
+		  "t_treetop",
+		  "t_treetop_evergreen",
+		  "t_treetop_dead",
+		  "t_treetop_giant_fern",
+          "t_water_sh",
+		  "t_water_sh_underground",
+		  "t_water_dp",
+		  "t_water_dp_underground",
+          "t_water_murky",
+		  "t_water_sh_murky_underground",
+		  "t_water_moving_sh_underground",
+          "t_water_moving_dp",
+		  "t_water_moving_dp_underground",
+		  "t_swater_sh",
+		  "t_swater_sh_underground",
+          "t_swater_dp",
+		  "t_swater_dp_underground",
+		  "t_water_pool",
+		  "t_swater_sh",
+		  "t_water_pool_shallow",
+          "t_water_pool_outdoors",
+		  "t_water_pool_shallow_outdoors",
+		  "t_sewage",
+		  "t_water_pool",
+		  ""t_water_cube",
+		  "t_saltwater_cube",
+		  "t_water_hot",
+		  "t_puddle",
+          "t_puddle_underground"
+        ],
+        "message": "You create a bridge made of dense spider silk!"
+      }
+    ]
+  },
