@@ -7,10 +7,8 @@
     "move_cost_mod": 0,
     "symbol": "#",
 	"looks_like": "fd_web",
-	"connect_groups": "WEBBRIDGE",
-    "connects_to": "WEBBRIDGE",
     "color": "light_gray",
-    "required_str": 9,
+    "required_str": 40,
 	"flags": [
       "TRANSPARENT",
       "NOCOLLIDE",
@@ -31,14 +29,11 @@
       ]
     },
     "bash": {
-      "str_min": 50,
-      "str_max": 400,
+      "str_min": 40,
+      "str_max": 300,
 	  "bash_below": true,
       "sound": "hsh!",
-      "sound_fail": "hsh!",
-      "items": [
-        { "item": "rope_30", "count": [ 10, 19 ] },
-      ]
+      "sound_fail": "hsh!"
     }
   }
 ]

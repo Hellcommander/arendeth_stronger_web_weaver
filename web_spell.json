@@ -1,6 +1,6 @@
 [
 	    {
-      "id": "web_bridge",
+      "id": "web_bridge_spell",
       "type": "SPELL",
       "name": "Web Bridge Blast",
       "description": "Creates a bridge made of tough spider silk across open air(currently planned).",
@@ -11,29 +11,26 @@
       "energy_source": "STAMINA",
       "flags": [ "PERMANENT_ALL_LEVELS", "NO_PROJECTILE", "SILENT","NO_HANDS", "NO_FAIL", "NO_LEGS","NO_EXPLOSION_SFX" ],
       "difficulty": 0,
-      "max_level": 0,
+      "max_level": 1,
       "min_range": 10,
       "max_range": 10,
 	  "min_aoe": 3,
 	  "max_aoe": 3, 
 	  "teachable": false,
-	  "message": "You use your webbing to make a spider silk bridge."
+	  "message": "You use your webbing to make a spider silk bridge.",
 	  "sound_type": "combat",
 	  "sound_description": "a whoosh",
 	  "sound_ambient": true,
 	  "sound_id": "misc",
 	  "sound_variant": "shockwave",
-      "base_energy_cost": 20,
+      "base_energy_cost": 30,
       "energy_increment": -1.0,
       "final_energy_cost": 10,
 	  "base_casting_time": 600,
 	  "final_casting_time": 100,
-      "casting_time_increment": -50,
       "min_duration": 5000,
       "max_duration": 5000,
-      "base_casting_time": 100,
-      "casting_time_increment": -6.0,
-      "final_casting_time": 40, 
+      "casting_time_increment": -6.0
     }
 
 	  

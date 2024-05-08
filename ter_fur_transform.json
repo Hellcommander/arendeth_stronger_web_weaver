@@ -4,7 +4,7 @@
     "id": "web_weaver_create_web_bridge",
     "terrain": [
       {
-        "result": "t_web_weaver_bridge",
+        "result": "f_web_weaver_bridge",
         "valid_terrain": [
           "t_open_air",
 		  "t_open_air_rooved_outside",
@@ -33,7 +33,7 @@
 		  "t_water_pool_shallow_outdoors",
 		  "t_sewage",
 		  "t_water_pool",
-		  ""t_water_cube",
+		  "t_water_cube",
 		  "t_saltwater_cube",
 		  "t_water_hot",
 		  "t_puddle",
