@@ -9,7 +9,6 @@
 	"looks_like": "fd_web",
     "color": "i_cyan",
 	"roof": "t_flat_roof",
-    "trap": "tr_ledge",
 	"flags": [
       "TRANSPARENT",
 	  "TRANSPARENT_FLOOR",
@@ -24,8 +23,6 @@
 	  "BLOCK_WIND",
 	  "REDUCE_SCENT"
     ],
-	"examine_action": "ledge",
-
  "bash": {
       "str_min": 40,
       "str_max": 300,
@@ -45,8 +42,6 @@
     "symbol": "#",
 	"looks_like": "fd_web",
     "color": "i_cyan",
-    "trap": "tr_ledge",
-	"examine_action": "ledge",
 	"flags": [
       "TRANSPARENT",
 	  "TRANSPARENT_FLOOR",
@@ -80,8 +75,6 @@
     "symbol": "#",
 	"looks_like": "fd_web",
     "color": "i_cyan",
-    "trap": "tr_ledge",
-	"examine_action": "ledge",
 	"flags": [
       "TRANSPARENT",
 	  "TRANSPARENT_FLOOR",
@@ -106,9 +99,120 @@
       "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
     }
   },
+     {
+    "type": "terrain",
+    "id": "t_open_air_rooved_outside_ladder_ledge",
+	"name": "woven spider silk bridge with open air and rooved flat roof underneath",
+    "description": "A spider web attached to a wall with webs along the wall for climbing made by a humanoid mutant spider.",
+    "move_cost": 2,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": "i_cyan",
+	"roof": "t_flat_roof",
+	"connects_to": "WALL",
+	"flags": [
+      "TRANSPARENT",
+	  "TRANSPARENT_FLOOR",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "TRANSPARENT_FLOOR",
+	  "FLAMMABLE_HARD",
+	  "FLAMMABLE_ASH",
+	  "FLAT",
+	  "Z_TRANSPARENT",
+	  "LADDER",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "REDUCE_SCENT"
+    ],
+	
+
+ "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_open_air_rooved_outside",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
+  {
+    "id": "t_open_air_rooved_web_ladder_ledge",
+    "type": "terrain",
+	"name": "woven spider silk bridge",
+    "description": "A spider web attached to a wall with webs along the wall for climbing made by a humanoid mutant spider.",
+    "move_cost": 2,
+    "symbol": "#",
+	"connects_to": "WALL",
+	"looks_like": "fd_web",
+    "color": "i_cyan",
+	
+	"flags": [
+      "TRANSPARENT",
+	  "TRANSPARENT_FLOOR",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE_HARD",
+	  "FLAMMABLE_ASH",
+	  "Z_TRANSPARENT",
+	  "FLAT",
+	  "LADDER",
+	  "INDOORS",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "REDUCE_SCENT"
+    ],
+	 "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_open_air_rooved",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
+    {
+    "type": "terrain",
+    "id": "t_open_air_web_ladder_ledge",
+	"name": "woven spider silk bridge",
+    "description": "A spider web attached to a wall with webs along the wall for climbing made by a humanoid mutant spider.",
+    "move_cost": 2,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": "i_cyan",
+    "connects_to": "WALL",
+	"flags": [
+      "TRANSPARENT",
+	  "TRANSPARENT_FLOOR",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE_HARD",
+	  "FLAMMABLE_ASH",
+	  "FLAT",
+	  "Z_TRANSPARENT",
+	  "INDOORS",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "REDUCE_SCENT"
+    ],
+	 "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_open_air_rooved",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
   {
     "type": "terrain",
-    "id": "t_treetop_web_bridge",
+    "id": "t_treetop_web_web_bridge",
 	"name": "woven spider silk bridge with tree top underneath",
     "description": "A complexely done bridge woven by a humanoid mutant spider. Beware surface is unstable, tree top is underneath.",
     "move_cost": 2,
