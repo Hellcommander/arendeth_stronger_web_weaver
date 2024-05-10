@@ -1,45 +1,218 @@
-
-{
+[
+  {
     "type": "ter_furn_transform",
-    "id": "web_weaver_create_web_bridge",
+    "id": "web_weaver_create_web_bridge_t_terrain_to_web_floor_bashable_to_previous",
     "terrain": [
       {
-        "result": "f_web_weaver_bridge",
+        "result": "t_open_air_rooved_outside_web_bridge",
         "valid_terrain": [
-          "t_open_air",
-		  "t_open_air_rooved_outside",
-		  "t_open_air_rooved",
-		  "t_treetop",
-		  "t_treetop_evergreen",
-		  "t_treetop_dead",
-		  "t_treetop_giant_fern",
-          "t_water_sh",
-		  "t_water_sh_underground",
-		  "t_water_dp",
-		  "t_water_dp_underground",
-          "t_water_murky",
-		  "t_water_sh_murky_underground",
-		  "t_water_moving_sh_underground",
-          "t_water_moving_dp",
-		  "t_water_moving_dp_underground",
-		  "t_swater_sh",
-		  "t_swater_sh_underground",
-          "t_swater_dp",
-		  "t_swater_dp_underground",
-		  "t_water_pool",
-		  "t_swater_sh",
-		  "t_water_pool_shallow",
-          "t_water_pool_outdoors",
-		  "t_water_pool_shallow_outdoors",
-		  "t_sewage",
-		  "t_water_pool",
-		  "t_water_cube",
-		  "t_saltwater_cube",
-		  "t_water_hot",
-		  "t_puddle",
-          "t_puddle_underground"
+		  "t_open_air_rooved_outside_t_open_air_rooved_outside_web_bridge"
         ],
-        "message": "You create a bridge made of dense spider silk!"
+        "message": ""
+      },
+	        {
+        "result": "t_open_air_rooved_web_bridge",
+        "valid_terrain": [
+		  "t_open_air_rooved"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_open_air_web_bridge",
+        "valid_terrain": [
+          "t_open_air"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_treetop_web_bridge",
+        "valid_terrain": [
+		  "t_treetop"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_treetop_evergreen_web_bridge",
+        "valid_terrain": [
+		  "t_treetop_evergreen"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_treetop_dead_web_bridge",
+        "valid_terrain": [
+		  "t_treetop_dead"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_treetop_giant_fern_web_bridge",
+        "valid_terrain": [
+		  "t_treetop_giant_fern"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_sh_web_bridge",
+        "valid_terrain": [
+          "t_water_sh"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_sh_underground_web_bridge",
+        "valid_terrain": [
+		  "t_water_sh_underground"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_dp_web_bridge",
+        "valid_terrain": [
+		  "t_water_dp"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_dp_underground_web_bridge",
+        "valid_terrain": [
+		  "t_water_dp_underground"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_murky_web_bridge",
+        "valid_terrain": [
+          "t_water_murky"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_sh_murky_underground_web_bridge",
+        "valid_terrain": [
+		  "t_water_sh_murky_underground"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_moving_sh_web_bridge",
+        "valid_terrain": [
+          "t_water_moving_sh"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_moving_sh_underground_web_bridge",
+        "valid_terrain": [
+		  "t_water_moving_sh_underground"
+        ],
+        "message": ""
+      },
+	      {
+        "result": "t_water_moving_dp_underground_web_bridge",
+        "valid_terrain": [
+		  "t_water_moving_dp_underground"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_moving_dp_web_bridge",
+        "valid_terrain": [
+          "t_water_moving_dp"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_moving_dp_underground_web_bridge",
+        "valid_terrain": [
+		  "t_water_moving_dp_underground"
+        ],
+        "message": ""
+      },
+	   {
+        "result": "t_swater_sh_web_bridge",
+        "valid_terrain": [
+		  "t_swater_sh"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_swater_sh_underground_web_bridge",
+        "valid_terrain": [
+		  "t_swater_sh_underground"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_swater_dp_web_bridge",
+        "valid_terrain": [
+          "t_swater_dp"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_swater_dp_underground_web_bridge",
+        "valid_terrain": [
+		  "t_swater_dp_underground"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_swater_surf_web_bridge",
+        "valid_terrain": [
+		  "t_swater_surf_web_bridge"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_pool_web_bridge",
+        "valid_terrain": [
+		  "t_water_pool"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_pool_shallow_web_bridge",
+        "valid_terrain": [
+		  "t_water_pool_shallow"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_pool_outdoors_web_bridge",
+        "valid_terrain": [
+          "t_water_pool_outdoors"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_pool_shallow_outdoors_web_bridge",
+        "valid_terrain": [
+		  "t_water_pool_shallow_outdoors"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_sewage_web_bridge",
+        "valid_terrain": [
+		  "t_sewage"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_hot_web_bridge",
+        "valid_terrain": [
+		  "t_water_hot"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_water_sh_flood_web_bridge",
+        "valid_terrain": [
+          "t_water_sh_flood_web_bridge"
+        ],
+        "message": ""
       }
     ]
-  },
+  }
+]

@@ -6,7 +6,7 @@
       "description": "Creates a bridge made of tough spider silk across open air(currently planned).",
       "valid_targets": ["ground" ],
       "effect": "ter_transform",
-      "effect_str": "web_weaver_create_web_bridge",
+      "effect_str": "web_weaver_create_web_bridge_t_terrain_to_web_floor_bashable_to_previous",
       "shape": "line",
       "energy_source": "STAMINA",
       "flags": [ "PERMANENT_ALL_LEVELS", "NO_PROJECTILE", "SILENT","NO_HANDS", "NO_FAIL", "NO_LEGS","NO_EXPLOSION_SFX" ],
@@ -30,7 +30,7 @@
 	  "final_casting_time": 100,
       "min_duration": 5000,
       "max_duration": 5000,
-      "casting_time_increment": -6.0
+      "casting_time_increment": -6.0	  
     }
 
 	  

@@ -1,0 +1,252 @@
+ [
+   {
+    "type": "terrain",
+    "id": "t_open_air_rooved_outside_web_bridge",
+	"name": "woven spider silk bridge with open air and rooved flat roof underneath",
+    "description": "A complexely done bridge woven by a humanoid mutant spider.",
+    "move_cost": 0,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": "i_cyan",
+	"roof": "t_flat_roof",
+    "trap": "tr_ledge",
+	"flags": [
+      "TRANSPARENT",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE_HARD",
+	  "FLAMMABLE_ASH",
+	  "FLAT_SURF",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "ALLOW_ON_OPEN_AIR",
+	  "REDUCE_SCENT"
+    ],
+	"examine_action": "ledge",
+
+ "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_open_air_rooved_outside",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
+  {
+    "id": "t_open_air_rooved_web_bridge",
+    "type": "terrain",
+	"name": "woven spider silk bridge",
+    "description": "A complexely done bridge woven by a humanoid mutant spider.",
+    "move_cost": 0,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": "i_cyan",
+    "trap": "tr_ledge",
+	"examine_action": "ledge",
+	"flags": [
+      "TRANSPARENT",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE_HARD",
+	  "FLAMMABLE_ASH",
+	  "FLAT_SURF",
+	  "INDOORS",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "ALLOW_ON_OPEN_AIR",
+	  "REDUCE_SCENT"
+    ],
+	 "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_open_air_rooved",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
+    {
+    "type": "terrain",
+    "id": "t_open_air_web_bridge",
+	"name": "woven spider silk bridge",
+    "description": "A complexely done bridge woven by a humanoid mutant spider.",
+    "move_cost": 0,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": "i_cyan",
+    "trap": "tr_ledge",
+	"examine_action": "ledge",
+	"flags": [
+      "TRANSPARENT",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE_HARD",
+	  "FLAMMABLE_ASH",
+	  "FLAT_SURF",
+	  "INDOORS",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "ALLOW_ON_OPEN_AIR",
+	  "REDUCE_SCENT"
+    ],
+	 "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_open_air_rooved",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_treetop_web_bridge",
+	"name": "woven spider silk bridge with tree top underneath",
+    "description": "A complexely done bridge woven by a humanoid mutant spider. Beware surface is unstable, tree top is underneath.",
+    "move_cost": 0,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": [ "light_green", "green", "yellow_yellow", "brown" ],
+	"flags": [
+      "TRANSPARENT",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE",
+	  "FLAMMABLE_ASH",
+	  "FLAT_SURF",
+	  "UNSTABLE",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "CLIMBABLE",
+	  "ALLOW_ON_OPEN_AIR",
+	  "SINGLE_SUPPORT",
+	  "REDUCE_SCENT"
+    ],
+
+ "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_treetop",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_treetop_evergreen_web_bridge",
+	"name": "woven spider silk bridge with evergreen tree top underneath",
+    "description": "A complexely done bridge woven by a humanoid mutant spider. Beware surface is unstable, evergreen tree top is underneath.",
+    "move_cost": 0,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": [ "green" ],
+	"flags": [
+      "TRANSPARENT",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE",
+	  "FLAMMABLE_ASH",
+	  "FLAT_SURF",
+	  "UNSTABLE",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "CLIMBABLE",
+	  "ALLOW_ON_OPEN_AIR",
+	  "SINGLE_SUPPORT",
+	  "REDUCE_SCENT"
+    ],
+
+ "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_treetop_evergreen",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_treetop_dead_web_bridge",
+	"name": "woven spider silk bridge with dead tree top underneath",
+    "description": "A complexely done bridge woven by a humanoid mutant spider. Beware surface is unstable, dead tree top is underneath.",
+    "move_cost": 0,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": "brown",
+	"flags": [
+      "TRANSPARENT",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE",
+	  "FLAMMABLE_ASH",
+	  "FLAT_SURF",
+	  "UNSTABLE",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "CLIMBABLE",
+	  "ALLOW_ON_OPEN_AIR",
+	  "SINGLE_SUPPORT",
+	  "REDUCE_SCENT"
+    ],
+
+ "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_open_air_rooved_outside",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_treetop_giant_fern_web_bridge",
+	"name": "woven spider silk bridge with giant fern top underneath",
+    "description": "A complexely done bridge woven by a humanoid mutant spider. Beware surface is unstable, giant fern is underneath.",
+    "move_cost": 0,
+    "symbol": "#",
+	"looks_like": "fd_web",
+    "color": "red",
+	"flags": [
+      "TRANSPARENT",
+      "NOCOLLIDE",
+	  "PERMEABLE",
+	  "FLAMMABLE",
+	  "FLAMMABLE_ASH",
+	  "FLAT_SURF",
+	  "UNSTABLE",
+	  "SEEN_FROM_ABOVE",
+	  "THIN_OBSTACLE",
+	  "BLOCK_WIND",
+	  "CLIMBABLE",
+	  "ALLOW_ON_OPEN_AIR",
+	  "SINGLE_SUPPORT",
+	  "REDUCE_SCENT"
+    ],
+
+ "bash": {
+      "str_min": 40,
+      "str_max": 300,
+	  "bash_below": true,
+      "sound": "hsh!",
+      "sound_fail": "hsh!",
+      "ter_set": "t_treetop_evergreen",
+      "items": [ { "item": "rope_30", "count": [ 1, 4 ] } ]
+    }
+  }
+]
