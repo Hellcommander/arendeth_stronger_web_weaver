@@ -6,34 +6,24 @@
     "description": "A complexely done bridge woven by a humanoid mutant spider.",
     "move_cost_mod": 0,
     "symbol": "#",
-	"looks_like": "fd_web",
+    "looks_like": "fd_web",
     "color": "light_gray",
     "required_str": 40,
-	"flags": [
+    "flags": [
       "TRANSPARENT",
       "NOCOLLIDE",
-	  "PERMEABLE",
-	  "FLAMMABLE_HARD",
-	  "FLAMMABLE_ASH",
-	  "FLAT_SURF",
-	  "SEEN_FROM_ABOVE",
-	  "THIN_OBSTACLE",
-	  "BLOCK_WIND",
-	  "ALLOW_ON_OPEN_AIR",
-	  "REDUCE_SCENT",
+      "PERMEABLE",
+      "FLAMMABLE_HARD",
+      "FLAMMABLE_ASH",
+      "FLAT_SURF",
+      "SEEN_FROM_ABOVE",
+      "THIN_OBSTACLE",
+      "BLOCK_WIND",
+      "ALLOW_ON_OPEN_AIR",
+      "REDUCE_SCENT",
       "BRIDGE"
     ],
-    "deconstruct": {
-      "items": [
-        { "item": "rope_30", "count": 20 }
-      ]
-    },
-    "bash": {
-      "str_min": 40,
-      "str_max": 300,
-	  "bash_below": true,
-      "sound": "hsh!",
-      "sound_fail": "hsh!"
-    }
+    "deconstruct": { "items": [ { "item": "rope_30", "count": 20 } ] },
+    "bash": { "str_min": 40, "str_max": 300, "bash_below": true, "sound": "hsh!", "sound_fail": "hsh!" }
   }
 ]

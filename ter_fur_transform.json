@@ -53,5 +53,32 @@
         "message": ""
       }
     ]
+  },
+    {
+    "type": "ter_furn_transform",
+    "id": "web_weaver_create_web_balcony_t_terrain_to_web_floor_bashable_to_previous",
+    "terrain": [
+      {
+        "result": "t_open_air_rooved_outside_ladder_ledge",
+        "valid_terrain": [
+		  "t_open_air_rooved_outside_t_open_air_rooved_outside_web_bridge"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_open_air_rooved_web_ladder_ledge",
+        "valid_terrain": [
+		  "t_open_air_rooved"
+        ],
+        "message": ""
+      },
+	        {
+        "result": "t_open_air_web_ladder_ledge",
+        "valid_terrain": [
+          "t_open_air"
+        ],
+        "message": ""
+      }
+    ]
   }
 ]
